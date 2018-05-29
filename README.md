@@ -1,14 +1,14 @@
 # Customized Alpine
-Based on ([Official Alpine:3.4](https://hub.docker.com/_/alpine/))
+Based on ([Official Alpine:latest](https://hub.docker.com/_/alpine/))
 
 ## Dockerfile links
-* [latest](https://gitlab.com/cloim/docker-alpine)
+* [latest](https://github.com/cloim/cloim-docker-alpine)
 
 # Added Features
 * TimeZone(TZ) Environment Variable (Default : Asia/Seoul)
 * Bash Shell with Prompt (\u@\w/ $ )
 * Nano Editor
-* OpenSSL
+* OpenSSL, curl, git
 
 # Examples
 ## Simple way
